@@ -1,5 +1,5 @@
 # Generated configs for clash-meta with WireGuard proxies that have amnesia values.
-# Generated on: 2026-03-23T07:12:07.532341
+# Generated on: 2026-03-23T13:10:12.565052
 
 mixed-port: 7890
 ipv6: true
@@ -79,30 +79,30 @@ proxies:
 - name: GER-DIALER-01
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 162.159.195.16
-  port: 3581
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 188.114.99.176
+  port: 934
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-01
 - name: IRN-ENTRY-01
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 188.114.96.96
-  port: 987
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 188.114.98.145
+  port: 2371
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -112,30 +112,30 @@ proxies:
 - name: GER-DIALER-02
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 162.159.193.137
-  port: 4177
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 188.114.96.83
+  port: 891
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-02
 - name: IRN-ENTRY-02
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 188.114.98.187
-  port: 7281
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 188.114.99.49
+  port: 946
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -145,30 +145,30 @@ proxies:
 - name: GER-DIALER-03
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 188.114.98.152
-  port: 942
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 162.159.192.5
+  port: 8319
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-03
 - name: IRN-ENTRY-03
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 162.159.192.154
-  port: 3581
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 162.159.192.162
+  port: 878
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -178,30 +178,30 @@ proxies:
 - name: GER-DIALER-04
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 162.159.195.236
-  port: 3581
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 162.159.193.26
+  port: 946
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-04
 - name: IRN-ENTRY-04
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 162.159.193.159
-  port: 2408
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 162.159.193.133
+  port: 864
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -211,30 +211,30 @@ proxies:
 - name: GER-DIALER-05
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 162.159.195.251
-  port: 878
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 162.159.195.168
+  port: 1014
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-05
 - name: IRN-ENTRY-05
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 188.114.97.129
-  port: 7281
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 162.159.193.197
+  port: 1701
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -244,30 +244,30 @@ proxies:
 - name: GER-DIALER-06
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 162.159.192.32
-  port: 934
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 188.114.96.8
+  port: 859
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-06
 - name: IRN-ENTRY-06
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 188.114.98.193
-  port: 7559
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 188.114.98.104
+  port: 500
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -277,30 +277,30 @@ proxies:
 - name: GER-DIALER-07
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 2606:4700:d0::bdba:2fa9:909a:b845
-  port: 880
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 2606:4700:d0::85a5:c37b:0957:ac84
+  port: 942
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-07
 - name: IRN-ENTRY-07
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 2606:4700:d1::2f2f:1c5a:60ce:7024
-  port: 4198
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 2606:4700:d1::f9cb:8e25:e96d:d710
+  port: 1180
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
@@ -310,30 +310,30 @@ proxies:
 - name: GER-DIALER-08
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:84b1:2d77:3e84:2cf7:56ee/128
-  private-key: +Lr5jevOEjT5weSGle29FgL5zM9azOuP9QDBU8Q5nkU=
-  server: 2606:4700:d0::a37e:4398:7b12:7fa9
-  port: 908
+  ipv6: 2606:4700:110:8642:84a3:90e8:92ab:1ec9/128
+  private-key: QFJBaMSpk38FGDYr+FpyXL4f6Qfs0UYStSns2Q6ehnA=
+  server: 2606:4700:d0::fcad:a379:8559:a8c9
+  port: 8319
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: I+38
+  reserved: iSVp
   udp: true
   mtu: 1280
   dialer-proxy: IRN-ENTRY-08
 - name: IRN-ENTRY-08
   type: wireguard
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8df4:7ff8:b32d:ed2a:429d/128
-  private-key: yGeBFXHlZ1Q8sxSmh+HH9pNLU9faDXjSBdflnsmBb2s=
-  server: 2606:4700:d1::5c85:d034:9a11:4b82
-  port: 943
+  ipv6: 2606:4700:110:8b63:1713:61f:6c54:b648/128
+  private-key: UGn4CGpGWQ8Jc4ixpH+5O/VJK7UKLYhD/3QH65tADm0=
+  server: 2606:4700:d1::3256:4e02:92a2:8b69
+  port: 880
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips:
   - 0.0.0.0/0
   - ::/0
-  reserved: tKKw
+  reserved: vdgP
   udp: true
   mtu: 1280
   amnezia-wg-option:
